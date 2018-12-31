@@ -1,0 +1,43 @@
+{
+  "name": "petdrinker_pwa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "firebase": "^5.7.1",
+    "material-design-icons-iconfont": "^4.0.3",
+    "paho.mqtt.js": "^2.0.5",
+    "register-service-worker": "^1.5.2",
+    "vue": "^2.5.17",
+    "vue-idb": "^0.2.0",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.3.0",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-pwa": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-template-compiler": "^2.5.17",
+    "vuetify-loader": "^1.0.5"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
